@@ -1,0 +1,79 @@
+<style>
+    button{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        cursor: pointer;
+    }
+    a{
+        padding-inline: 6px 6px;
+    }
+    .stretch-button{
+        background-color: green;
+        color: white;
+        border: none;
+        padding-left: 14px;
+        padding-right: 14px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .stretch-button:hover{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    .shadow-button{
+        background-color: green;
+        color: white;
+        font-size: 16px;
+        border: none;
+        padding-left: 14px;
+        padding-right: 14px;
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+        transition: 0.15s;
+    }
+    .shadow-button:active{
+        margin-top: 3px;
+        margin-bottom: 3px;
+        box-shadow: none;
+    }
+    .mpt{
+        background-color: green;
+        color: white;
+        font-size: 16px;
+        border: none;
+        padding-left: 14px;
+        padding-right: 14px;
+        margin-right: 25px;
+        transition: 0.15s;
+    }
+    .mpt:hover{
+        padding-inline: 20px 20px;
+        margin-right:0px;
+    }
+</style>
+<h2>Pagination</h2>
+<button>
+    Back 
+</button>
+<a href="#">1</a> 
+<a href="#">2</a>
+<a href="#">3</a>
+<a href="#">4</a>
+<a href="#">5</a>
+<button>
+    Next
+</button>
+<h2>Stretch</h2>
+<button class="stretch-button">
+    Stretch
+</button>
+<h2>3D Click</h2>
+<button class="shadow-button"> 
+    Shadow
+</button>
+<h2>Margin and padding together</h2>
+<button class="mpt">One</button>
+<button class="mpt">Two</button>
+<button class="mpt">Three</button>
