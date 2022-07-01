@@ -1,0 +1,18 @@
+.thumbnail-a{
+    width: 200px;
+    border-radius: 14px;
+}
+.thumbnail-b{
+    margin-left:30px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+.thumbnail-c{
+    margin-left: 30px;
+    object-position: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    object-fit: cover;
+}
