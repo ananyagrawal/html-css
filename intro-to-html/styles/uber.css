@@ -1,0 +1,51 @@
+body{
+    font-family: Arial;
+}
+.request-head{
+    font-size: 40px;
+}
+.pickup-input{
+    border:none;
+    font-size: 16px;
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 180px;
+    background-color: lightgray;
+    margin-bottom: 8px;
+}
+.destination-input{
+    border:none;
+    font-size: 16px;
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 180px;
+    background-color: lightgray;
+    margin-bottom: 8px;
+}
+.request-button{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    margin-top: 30px;
+    border:none;
+    margin-right: 16px;
+}
+.schedule-button{
+    background-color: lightgray;
+    color: black;
+    font-size:18px;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    margin-top: 30px;
+    border: none;
+}
