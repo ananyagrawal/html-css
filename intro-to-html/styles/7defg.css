@@ -5,6 +5,46 @@
     width: 140px;
     margin-right: 8px;
 }
+.google{
+    text-align: center;
+    width: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.google-logo{
+    width: 300px;
+    display: inline-block;
+}
+.google-search{
+    display: inline-block;
+    border: none;
+    background-color: lightgray;
+    margin-right: 4px;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-right: 16px;
+    padding-left: 16px;
+    cursor: pointer;
+}
+.lucky-button{
+    display: inline-block;
+    border: none;
+    background-color: lightgray;
+    margin-left: 4px;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-right: 16px;
+    padding-left: 16px;
+    cursor: pointer;
+}
 .textbox-e{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
@@ -17,6 +57,7 @@
     cursor: text;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     border-radius: 22px;
+    display: inline-block;
 }
 .email{
     font-family: 'Roboto';
@@ -42,9 +83,18 @@
     padding-bottom: 8px;
     border-radius: 20px;
 }
+.twitter{
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin-top: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 16px;
+    display: inline-block;
+}
 .opthumbnail{
     vertical-align: middle;
-    margin-top: 16px;
     width: 50px;
     height: 50px;
     border-radius: 60px;
@@ -52,7 +102,6 @@
 }
 .textbox-g{
     vertical-align: middle;
-    margin-top: 16px;
     border: none;
     font-family: 'Roboto';
     font-size: 16px;
@@ -62,7 +111,6 @@
 }
 .tweet-button{
     vertical-align: middle;
-    margin-top: 16px;
     background-color: rgb(0, 119, 181);
     border: none;
     color: white;
