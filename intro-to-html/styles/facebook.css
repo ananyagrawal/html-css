@@ -20,11 +20,22 @@ p{
     font-weight: bold;
     padding-left: 8px;
 }
+.profile-picture{
+    width:30px;
+    height: 30px;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 8px;
+    object-fit: cover;
+}
 .mutual{
     color: lightslategray;
     font-size: 20px;
-    padding-left: 8px;
+    padding-left: 4px;
     margin-bottom: 12px;
+    display: inline-block;
+    vertical-align: top;
 }
 .add-button{
     background-color: royalblue;
@@ -38,4 +49,5 @@ p{
     padding-bottom: 6px;
     margin-left: 8px;
     margin-bottom: 12px;
+    display: block;
 }
