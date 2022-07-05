@@ -1,22 +1,25 @@
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+}
 .recommended{
+    width: 200px;
     font-family:'Segoe UI', sans-serif;
-    margin-left: 16px;
-    margin-top: 12px;
-    display: inline-block;
     box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+    vertical-align: top;
 }
 p{
     margin-top: 0px;
     margin-bottom:0px;
 }
 .thumbnail-1{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
 }
 .name{
-    margin-top: 6px;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
     padding-left: 8px;
 }
@@ -24,30 +27,31 @@ p{
     width:30px;
     height: 30px;
     border-radius: 20px;
-    display: inline-block;
     vertical-align: top;
     padding-left: 8px;
     object-fit: cover;
+}
+.mutual-friend{
+    display: grid;
+    grid-template-columns: 40px 1fr;
 }
 .mutual{
     color: lightslategray;
     font-size: 20px;
     padding-left: 4px;
     margin-bottom: 12px;
-    display: inline-block;
     vertical-align: top;
 }
 .add-button{
     background-color: royalblue;
     border: none;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     border-radius: 6px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top:6px;
-    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
     margin-left: 8px;
-    margin-bottom: 12px;
-    display: block;
+    margin-bottom: 10px;
 }
