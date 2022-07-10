@@ -1,2 +1,2 @@
 # html-css
-*This repository contains my html-css programs.
+*This repository contains my html-css programs.*
