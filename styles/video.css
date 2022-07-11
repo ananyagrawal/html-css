@@ -20,6 +20,7 @@
 }
 .thumbnail-row{
     margin-bottom: 12px;
+    position: relative;
 }
 .video-author{
     font-size: 12px;
@@ -33,4 +34,19 @@
 .video-info-grid{
     display: grid;
     grid-template-columns: 50px 1fr;
+}
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-family: 'Roboto', Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
 }
