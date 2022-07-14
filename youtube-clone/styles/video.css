@@ -3,9 +3,25 @@
 }
 .video-grid{
     display: grid;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 28px;
+}
+@media (max-width: 500px){
+    .video-grid{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width:501px) and (max-width: 880px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 1130px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 .video-title{
     margin-top: 0px;
@@ -41,12 +57,8 @@
     position: absolute;
     bottom: 8px;
     right: 5px;
-    font-family: 'Roboto', Arial;
     font-size: 12px;
     font-weight: 500;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding: 4px;
     border-radius: 2px;
 }
