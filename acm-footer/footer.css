@@ -1,5 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Noto Sans', sans-serif;
+}
+.section-counter{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(71, 137, 192, 1);
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+}
+.establishment-year{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.members-count{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.event-count{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.increasing-number{
+    font-size: 24px;
+}
+.section-title{
+    font-size: 20px;
 }
 .membership-container{
     display: flex;
@@ -9,11 +43,8 @@ body{
     background-image: url(http://drive.google.com/uc?export=view&id=1NfWKHRMrdhuFJPlu18TybdZhAsNOa8K2);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    bottom: 0px;
-    position: absolute;
     width: 100%;
-    height: 350px;
-    left: 0;
+    height: 60vh;
     margin: 0;
 }
 .membership-content{
@@ -24,7 +55,7 @@ body{
     background-color: rgba(0, 0, 0, 0.41);
     border-radius: 15px;
     padding: 20px 20px 20px 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: 400;
     font-size: 18px;
 }
@@ -36,4 +67,129 @@ body{
     background-color: rgba(0, 0, 0, 0.41);
     padding: 10px 16px 10px 16px;
     border-radius: 8px;
+    margin-top: 10px;
+}
+.footer-container{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(71, 137, 192, 1);
+    color: white;
+    padding-top:30px;
+    border-top: 1px solid rgba(71, 137, 192, 1);
+}
+.footer-top{
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 20px;
+}
+.footer-info{
+    width: 360px;
+    padding-left: 80px;
+}
+.footer-logo{
+    /* width: 8vw; */
+    display: grid;
+    grid-template-columns: 6vw 11.5vw;
+    align-items: center;
+}
+.footer-about{
+    width: 320px;
+    font-size: 16px;
+    font-weight:400;
+}
+.footer-acm-logo{
+    width: 6vw;
+}
+.footer-acmw-logo{
+    width: 11.5vw;
+}
+.footer-social{
+    padding: 4px 4px 4px 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.footer-social a{
+    color: white;
+    text-decoration: none;
+    padding: 4px 4px 4px 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.sitemap-container{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.footer-sitemap{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    width: 360px;
+    margin-top: 30px;
+}
+.footer-sitemap li{
+    list-style: none;
+}
+.footer-sitemap a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+.sitemap-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.sitemap-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.footer-contact{
+    width: 360px;
+    padding-top: 20px;
+}
+.footer-heading{
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer-detail-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-address{
+    width: 300px;
+}
+.footer-mail{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.footer-phone{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.footer-direction{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.footer-bottom-border{
+    width: 94%;
+    text-align: center;
+    margin: auto;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
 }
