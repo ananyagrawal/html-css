@@ -68,6 +68,12 @@ body{
     padding: 10px 16px 10px 16px;
     border-radius: 8px;
     margin-top: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.membership-button:hover{
+    background-color: rgba(71, 137, 192, 1);
+    
 }
 .footer-container{
     width: 100%;
@@ -89,7 +95,7 @@ body{
 .footer-logo{
     /* width: 8vw; */
     display: grid;
-    grid-template-columns: 6vw 11.5vw;
+    grid-template-columns: 7vw 7vw;
     align-items: center;
 }
 .footer-about{
@@ -98,10 +104,10 @@ body{
     font-weight:400;
 }
 .footer-acm-logo{
-    width: 6vw;
+    width: 7vw;
 }
 .footer-acmw-logo{
-    width: 11.5vw;
+    width: 7vw;
 }
 .footer-social{
     padding: 4px 4px 4px 4px;
@@ -134,14 +140,7 @@ body{
     text-decoration: none;
     font-weight: 300;
 }
-.sitemap-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-}
-.sitemap-right{
+.sitemap-left, .sitemap-right{
     display: flex;
     flex-direction: column;
     justify-content: center;
